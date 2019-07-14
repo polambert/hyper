@@ -63,6 +63,6 @@ If you have any questions about hyper, support will be continued indefinitely.
 
 Contact me at:
 
-parkerthelamb@gmail.com
-Park#3337
+- parkerthelamb@gmail.com
+- Park#3337
 
