@@ -1,6 +1,13 @@
 # hyper
 An all around networking library for go, as complicated as you want it to be.
 
+```
+go get github.com/polambert/hyper
+```
+```go
+import "github.com/polambert/hyper"
+```
+
 Hyper can be used for networking anything from games to backends to writing your own HTTP server.
 We don't recommend trying to write your own HTTP server. Please don't use hyper for that. Please.
 
@@ -10,7 +17,7 @@ Here's how you can create a simple client-server system:
 
 The system has a client connect to a server, attempt a username and password, and the server responds with whether or not it was correct.
 
-```
+```go
 // The Client
 client := hyper.Client{}
 
@@ -31,7 +38,7 @@ if data["success"] {
 }
 ```
 
-```
+```go
 // The Server
 server := hyper.Server{}
 
