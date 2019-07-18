@@ -66,10 +66,4 @@ server.Host(8000, func(client hyper.Client) {
 })
 ```
 
-If you have any questions about hyper, support will be continued indefinitely.
-
-Contact me at:
-
-- parkerthelamb@gmail.com
-- Park#3337
-
+If you have any questions about hyper, support will be continued indefinitely. Issues are the recommended way of contacting me.
