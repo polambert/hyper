@@ -9,7 +9,7 @@ import (
 )
 
 type Client struct {
-	conn net.Conn
+	Conn net.Conn
 }
 
 type Server struct {
