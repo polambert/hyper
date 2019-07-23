@@ -13,7 +13,7 @@ type Client struct {
 }
 
 type Server struct {
-	listener net.Listener
+	Listener net.Listener
 }
 
 func (c *Client) Connect(addr string, port uint16) {
